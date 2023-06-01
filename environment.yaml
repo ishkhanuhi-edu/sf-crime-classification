@@ -1,0 +1,40 @@
+name: sf_crime_classification
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - affine=2.4.0=pyhd8ed1ab_0
+  - anyio=3.5.0=py310hecd8cb5_0
+  - appnope=0.1.2=py310hecd8cb5_1001
+  - argon2-cffi=21.3.0=pyhd3eb1b0_0
+  - argon2-cffi-bindings=21.2.0=py310hca72f7f_0
+  - asttokens=2.0.5=pyhd3eb1b0_0
+  - attrs=22.1.0=py310hecd8cb5_0
+  - babel=2.11.0=py310hecd8cb5_0
+  - backcall=0.2.0=pyhd3eb1b0_0
+  - beautifulsoup4=4.12.2=py310hecd8cb5_0
+  - blas=1.0=mkl
+  - bleach=4.1.0=pyhd3eb1b0_0
+  - blosc=1.21.4=heccf04b_0
+  - boost-cpp=1.78.0=hf5ba120_3
+  - bottleneck=1.3.5=py310h4e76f89_0
+  - branca=0.6.0=pyhd8ed1ab_0
+  - brotli=1.0.9=hb7f2c08_8
+  - contextily=1.3.0=pyhd8ed1ab_0
+  - geopandas=0.13.0=pyhd8ed1ab_0
+  - jupyter=1.0.0=py310hecd8cb5_8
+  - networkx=3.1=pyhd8ed1ab_0
+  - numpy=1.24.3=py310h827a554_1
+  - pandas=1.5.3=py310h3ea8b11_0
+  - pillow=9.5.0=py310hd63a8c7_1
+  - pip=23.0.1=py310hecd8cb5_0
+  - python=3.10.11=he7542f4_0_cpython
+  - requests=2.29.0=py310hecd8cb5_0
+  - scikit-learn=1.2.2=py310h311060b_1
+  - scipy=1.10.1=py310hdb2ea58_1
+  - seaborn=0.12.2=hd8ed1ab_0
+  - shapely=2.0.1=py310h3ddfc5e_1
+  - tk=8.6.12=h5d9f67b_0
+  - urllib3=1.26.15=py310hecd8cb5_0
+  - pip:
+      - pyqt5-sip==12.11.0
